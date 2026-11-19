@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rahima Khatun Shantu | Frontend Developer</title>
+<meta name="description" content="Portfolio of Rahima Khatun Shantu, Software Engineering student and frontend developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="progress" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><polygon points="22,12 3,3 8,12 3,21"/></svg></div>
+<header class="top">
+  <a class="logo" href="#home" aria-label="Rahima, home">&lt;Rahima<span> /</span>&gt;</a>
+  <button id="menuBtn" class="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav" aria-label="Main">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a>
+    <button id="themeBtn" class="switch" type="button" role="switch" aria-checked="false" aria-label="Dark mode"><i class="fa-solid fa-sun"></i><span class="knob"></span><i class="fa-solid fa-moon"></i></button>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="sky" aria-hidden="true"><span class="cloud k1"></span><span class="cloud k2"></span><span class="cloud k3"></span></div>
+  <span class="tag t1" aria-hidden="true">HTML</span><span class="tag t2" aria-hidden="true">CSS</span><span class="tag t3" aria-hidden="true">JS</span><span class="tag t4" aria-hidden="true">React</span>
+  <div class="hero-text">
+    <p class="hello">Hello, I am</p>
+    <h1><span>Rahima Khatun</span> <span>Shantu</span></h1>
+    <p class="role">I build <b id="role">responsive websites</b><i class="caret" aria-hidden="true"></i></p>
+    <p class="intro">Software Engineering student at Daffodil International University turning designs into clean, fast and easy-to-use web pages with HTML, CSS and JavaScript.</p>
+    <p class="cta"><a class="btn" href="#contact"><i class="fa-solid fa-message"></i> Get in touch</a><a class="btn ghost" href="#projects"><i class="fa-solid fa-folder-open"></i> View projects</a></p>
+  </div>
+  <div class="hero-photo">
+    <svg class="prop" viewBox="0 0 200 200" aria-hidden="true"><ellipse cx="100" cy="40" rx="14" ry="40"/><ellipse cx="100" cy="160" rx="14" ry="40"/><circle cx="100" cy="100" r="13"/></svg>
+    <div class="blob" aria-hidden="true"></div>
+    <img src="rahima.jpg" alt="Rahima Khatun Shantu standing in front of a vintage green propeller plane" width="450" height="600">
+  </div>
+</section>
+
+<div class="strip" aria-label="Technologies I use"><div class="track" id="track">
+  <span><i class="devicon-html5-plain colored"></i>HTML5</span><span><i class="devicon-css3-plain colored"></i>CSS3</span><span><i class="devicon-javascript-plain colored"></i>JavaScript</span><span><i class="devicon-react-original colored"></i>React</span><span><i class="devicon-git-plain colored"></i>Git</span><span><i class="devicon-github-original"></i>GitHub</span><span><i class="devicon-figma-plain colored"></i>Figma</span><span><i class="devicon-bootstrap-plain colored"></i>Bootstrap</span>
+</div></div>
+
+<section id="about" class="block">
+  <h2>About me</h2>
+  <div class="about">
+    <div class="frame"><img src="rahima.jpg" alt="Portrait of Rahima" width="360" height="450" loading="lazy"></div>
+    <div>
+      <h3>Software Engineering student and frontend developer</h3>
+      <p>I enjoy the frontend side of software because it is where code becomes something people can see and touch. I care about layouts that work on every screen, readable typography and small details like focus states and sensible colors.</p>
+      <p>I am looking for an internship where I can learn from a team and ship real features.</p>
+      <dl class="info">
+        <div><dt>Name</dt><dd>Rahima Khatun Shantu</dd></div>
+        <div><dt>University</dt><dd>Daffodil International University</dd></div>
+        <div><dt>Department</dt><dd>Software Engineering</dd></div>
+        <div><dt>Student ID</dt><dd>251-35-210</dd></div>
+        <div><dt>Email</dt><dd>251-35-210@diu.edu.bd</dd></div>
+      </dl>
+    </div>
+  </div>
+  <div class="stats">
+    <div><b data-count="project">0</b><span>Projects</span></div>
+    <div><b data-count="skill">0</b><span>Skills</span></div>
+    <div><b data-count="cert">0</b><span>Certificates</span></div>
+  </div>
+</section>
+
+<section id="education" class="block alt">
+  <h2>Education</h2>
+  <ol class="timeline">
+    <li class="edu"><time>Currently studying</time><h3>BSc in Software Engineering</h3><p>Daffodil International University, Dhaka</p></li>
+    </ol>
+</section>
+
+<section id="skills" class="block">
+  <h2>Skills</h2>
+  <div class="skills">
+    <article class="skill"><i class="devicon-html5-plain colored" aria-hidden="true"></i><div><h3>HTML5</h3><p>Semantic, accessible pages</p></div></article>
+    <article class="skill"><i class="devicon-css3-plain colored" aria-hidden="true"></i><div><h3>CSS3</h3><p>Flexbox, Grid, animations</p></div></article>
+    <article class="skill"><i class="devicon-javascript-plain colored" aria-hidden="true"></i><div><h3>JavaScript</h3><p>DOM, events, fetch API</p></div></article>
+    <article class="skill"><i class="devicon-react-original colored" aria-hidden="true"></i><div><h3>React</h3><p>Components, hooks, state</p></div></article>
+    <article class="skill"><i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i><div><h3>Responsive design</h3><p>Mobile-first layouts</p></div></article>
+    <article class="skill"><i class="devicon-git-plain colored" aria-hidden="true"></i><div><h3>Git and GitHub</h3><p>Branches, commits, pull requests</p></div></article>
+  </div>
+</section>
+
+<section id="projects" class="block alt">
+  <h2>Projects</h2>
+  <div class="grid">
+    <article class="card proj"><div class="shot s1"><i class="fa-solid fa-calculator" aria-hidden="true"></i></div><h3>Calculator</h3><p>A calculator program written in C that performs basic arithmetic operations.</p><p class="stack">C</p></article>
+    <article class="card proj"><div class="shot s2"><i class="fa-solid fa-book-open" aria-hidden="true"></i></div><h3>Library Management</h3><p>A library management system to add and search books and keep track of which books are issued and returned.</p></article>
+    <article class="card proj"><div class="shot s3"><i class="fa-solid fa-cow" aria-hidden="true"></i></div><h3>AI Livestock Health Monitoring System</h3><p>An AI-based system where sensors send signals to monitor the health of livestock.</p><p class="stack">AI, Sensors</p></article>
+    <article class="card proj"><div class="shot s4"><i class="fa-solid fa-circle-question" aria-hidden="true"></i></div><h3>Guessing Game</h3><p>A guessing game where the player keeps guessing a secret number and gets hints until they find it.</p></article>
+  </div>
+</section>
+
+<section id="certificates" class="block">
+  <h2>Certificates</h2>
+  <div class="certs">
+    <article class="cert">
+      <button class="thumb" type="button" aria-label="View certificate larger"><img src="certificate.jpg" alt="Cursa certificate of completion for Discrete Math" width="331" height="468" loading="lazy"></button>
+      <div>
+        <i class="fa-solid fa-award" aria-hidden="true"></i>
+        <h3>Discrete Math</h3>
+        <p class="stack">Course by Dr Trefor Bazett</p>
+        <p>Completed on the Cursa learning platform on 25 April 2026, 9 hours 39 minutes of video lessons.</p>
+        <dl class="meta"><div><dt>Issuer</dt><dd>Cursa</dd></div><div><dt>Completed</dt><dd>25 April 2026</dd></div><div><dt>Certificate ID</dt><dd>u8086390</dd></div></dl>
+      </div>
+    </article>
+  </div>
+  <dialog id="certDlg"><button type="button" id="certClose" aria-label="Close">&times;</button><img src="certificate.jpg" alt="Discrete Math certificate, full size"></dialog>
+</section>
+
+<section id="contact" class="block alt">
+  <h2>Let's work together</h2>
+  <div class="contact">
+    <div>
+      <p>Have an internship, a project or a question? Send me a message and I will reply as soon as I can.</p>
+      <ul class="links">
+        <li><i class="fa-solid fa-envelope"></i><a href="mailto:251-35-210@diu.edu.bd">251-35-210@diu.edu.bd</a></li>
+        <li><i class="fa-solid fa-location-dot"></i>Dhaka, Bangladesh</li>
+      </ul>
+    </div>
+    <form id="form" novalidate>
+      <label>Name<input name="name" required autocomplete="name"></label>
+      <label>Email<input name="email" type="email" required autocomplete="email"></label>
+      <label>Message<textarea name="msg" rows="4" required></textarea></label>
+      <button class="btn" type="submit">Send message</button>
+      <p id="note" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="foot">
+    <div><a class="logo" href="#home">&lt;Rahima<span> /</span>&gt;</a><p>Software Engineering student building stronger frontend skills, one project at a time.</p></div>
+    <div><h3>Quick links</h3><a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+    <div><h3>Get in touch</h3><p>251-35-210@diu.edu.bd</p><p>Dhaka, Bangladesh</p></div>
+  </div>
+  <p class="copy">&copy; <span id="year"></span> Rahima Khatun Shantu. Software Engineering portfolio.</p>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
